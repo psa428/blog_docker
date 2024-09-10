@@ -1,0 +1,17 @@
+[33mcommit 008934a97e5ac41428d8e37c045fbac064f48c5a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: psa <psa@kemoms.ru>
+Date:   Thu Jul 11 13:55:22 2024 +0700
+
+    Реализовать основной компонент блога с роутингом
+
+[33mcommit 491f970a007ff47bfc3b53025480487f233b204c[m
+Author: psa <psa@kemoms.ru>
+Date:   Thu Jul 11 11:27:00 2024 +0700
+
+    Создали BFF
+
+[33mcommit 44386193741df62aef64bed4b668241571b6b699[m
+Author: psa <psa@kemoms.ru>
+Date:   Tue Jul 9 16:38:41 2024 +0700
+
+    Настройка пакетов
