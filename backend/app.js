@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
@@ -143,7 +145,7 @@ app.delete('/users/:id', hasRole([ROLES.ADMIN]), async (req, res) => {
 
 
 mongoose.connect(
-    'mongodb+srv://andrewsitnikov428:chuck_428@cluster0.wrudc.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0'
+    process.env.DB_CONNECTION_STRING
 ).then(() => {
     app.listen(port, () => {
         console.log(`Server started on port ${port}`);
